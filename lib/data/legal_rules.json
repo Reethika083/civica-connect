@@ -1,0 +1,337 @@
+{
+  "fir_rules": {
+    "title": "FIR Registration Simulation",
+    "description": "First Information Report – the first step in criminal proceedings",
+    "constitutional_basis": "Section 154 of CrPC",
+    "questions": [
+      {
+        "id": "fir_1",
+        "scenario": "A citizen arrives at a police station to report a cognizable offence (theft with force). The officer on duty must:",
+        "options": [
+          { "id": "a", "text": "Register the FIR immediately without delay", "correct": true },
+          { "id": "b", "text": "Ask the citizen to come back tomorrow", "correct": false },
+          { "id": "c", "text": "Ask the citizen to first get a lawyer", "correct": false },
+          { "id": "d", "text": "Refuse as it is a minor issue", "correct": false }
+        ],
+        "explanation": "Under Section 154 CrPC, police MUST register an FIR for cognizable offences immediately. Refusal is punishable under Section 166A IPC.",
+        "article": "Section 154, CrPC",
+        "consequence_if_wrong": "Failure to register FIR can lead to departmental action and punishment under Section 166A IPC."
+      },
+      {
+        "id": "fir_2",
+        "scenario": "An FIR has been registered. The informant wants to know who can file an FIR. Which of these is TRUE?",
+        "options": [
+          { "id": "a", "text": "Only the victim can file an FIR", "correct": false },
+          { "id": "b", "text": "Any person who knows about the offence can file", "correct": true },
+          { "id": "c", "text": "Only a male family member can file", "correct": false },
+          { "id": "d", "text": "Only the police officer can file", "correct": false }
+        ],
+        "explanation": "Any person who has knowledge of a cognizable offence can file an FIR. It is not limited to the victim alone.",
+        "article": "Section 154(1), CrPC",
+        "consequence_if_wrong": "Misinformation about who can file leads to delayed justice for victims."
+      },
+      {
+        "id": "fir_3",
+        "scenario": "After filing the FIR, the informant should receive:",
+        "options": [
+          { "id": "a", "text": "Nothing, the police will handle everything", "correct": false },
+          { "id": "b", "text": "A free copy of the FIR", "correct": true },
+          { "id": "c", "text": "A receipt with a fee payment", "correct": false },
+          { "id": "d", "text": "Only a verbal confirmation", "correct": false }
+        ],
+        "explanation": "Under Section 154(2) CrPC, a free copy of the FIR must be given to the informant immediately.",
+        "article": "Section 154(2), CrPC",
+        "consequence_if_wrong": "Not providing a copy violates the informant's rights."
+      },
+      {
+        "id": "fir_4",
+        "scenario": "A woman wants to file an FIR about sexual assault. The correct procedure is:",
+        "options": [
+          { "id": "a", "text": "She must go to the police station in person", "correct": false },
+          { "id": "b", "text": "A female officer should record her statement at a convenient place", "correct": true },
+          { "id": "c", "text": "She must bring two male witnesses", "correct": false },
+          { "id": "d", "text": "She must first file a written complaint", "correct": false }
+        ],
+        "explanation": "Under Section 154(1) proviso, the statement of a woman in cases of sexual assault shall be recorded by a female police officer at a convenient location.",
+        "article": "Section 154(1) Proviso, CrPC",
+        "consequence_if_wrong": "Violating this provision re-victimizes the complainant and is punishable."
+      },
+      {
+        "id": "fir_5",
+        "scenario": "If the police station refuses to register an FIR, the citizen should:",
+        "options": [
+          { "id": "a", "text": "Give up and go home", "correct": false },
+          { "id": "b", "text": "Pay a bribe to get it registered", "correct": false },
+          { "id": "c", "text": "Send the complaint to the Superintendent of Police by post", "correct": true },
+          { "id": "d", "text": "File a case in the Supreme Court directly", "correct": false }
+        ],
+        "explanation": "Under Section 154(3) CrPC, if a police officer refuses to register an FIR, the informant can send the substance of the complaint to the Superintendent of Police.",
+        "article": "Section 154(3), CrPC",
+        "consequence_if_wrong": "Citizens must know their legal remedies when police fail in their duties."
+      }
+    ]
+  },
+  "arrest_rules": {
+    "title": "Arrest Procedure Simulation",
+    "description": "Understanding the legal procedure during arrest",
+    "constitutional_basis": "Articles 21 and 22 of the Constitution",
+    "questions": [
+      {
+        "id": "arrest_1",
+        "scenario": "A police officer is about to arrest a person. The FIRST thing the officer must do is:",
+        "options": [
+          { "id": "a", "text": "Handcuff the person immediately", "correct": false },
+          { "id": "b", "text": "Inform the person of the grounds of arrest", "correct": true },
+          { "id": "c", "text": "Take the person to the police station silently", "correct": false },
+          { "id": "d", "text": "Call the person's family", "correct": false }
+        ],
+        "explanation": "Under Article 22(1) of the Constitution, every arrested person must be informed of the grounds of arrest as soon as possible.",
+        "article": "Article 22(1), Constitution of India",
+        "consequence_if_wrong": "Arrest without informing grounds is unconstitutional and can lead to habeas corpus proceedings."
+      },
+      {
+        "id": "arrest_2",
+        "scenario": "After arrest, the accused has a right to:",
+        "options": [
+          { "id": "a", "text": "Consult a lawyer of their choice", "correct": true },
+          { "id": "b", "text": "Leave the police station freely", "correct": false },
+          { "id": "c", "text": "Destroy evidence", "correct": false },
+          { "id": "d", "text": "Refuse to give their identity", "correct": false }
+        ],
+        "explanation": "Article 22(1) guarantees the right to consult and be defended by a legal practitioner of their choice.",
+        "article": "Article 22(1), Constitution of India",
+        "consequence_if_wrong": "Denial of legal counsel makes the entire arrest procedure unlawful."
+      },
+      {
+        "id": "arrest_3",
+        "scenario": "Can police arrest a person without a warrant?",
+        "options": [
+          { "id": "a", "text": "Yes, in all cases", "correct": false },
+          { "id": "b", "text": "No, never without a warrant", "correct": false },
+          { "id": "c", "text": "Yes, but only for cognizable offences", "correct": true },
+          { "id": "d", "text": "Only if the person is male", "correct": false }
+        ],
+        "explanation": "Under Section 41 CrPC, police can arrest without warrant only in cognizable offences and under specific conditions laid down by the Supreme Court in Arnesh Kumar v. State of Bihar.",
+        "article": "Section 41, CrPC; Arnesh Kumar Guidelines",
+        "consequence_if_wrong": "Wrongful arrest without warrant leads to compensation under Article 21."
+      },
+      {
+        "id": "arrest_4",
+        "scenario": "A woman is being arrested. The correct protocol is:",
+        "options": [
+          { "id": "a", "text": "She can be arrested at any time by any officer", "correct": false },
+          { "id": "b", "text": "She cannot be arrested after sunset and before sunrise except by a female officer", "correct": true },
+          { "id": "c", "text": "She must be arrested only with a magistrate present", "correct": false },
+          { "id": "d", "text": "Women cannot be arrested at all", "correct": false }
+        ],
+        "explanation": "Under Section 46(4) CrPC, a woman cannot be arrested after sunset and before sunrise, except in exceptional circumstances with a written order from a Judicial Magistrate.",
+        "article": "Section 46(4), CrPC",
+        "consequence_if_wrong": "Violation of this provision is a serious breach of women's rights."
+      },
+      {
+        "id": "arrest_5",
+        "scenario": "The arrested person must be produced before a magistrate within:",
+        "options": [
+          { "id": "a", "text": "48 hours", "correct": false },
+          { "id": "b", "text": "24 hours (excluding travel time)", "correct": true },
+          { "id": "c", "text": "72 hours", "correct": false },
+          { "id": "d", "text": "7 days", "correct": false }
+        ],
+        "explanation": "Article 22(2) of the Constitution mandates that an arrested person must be produced before the nearest magistrate within 24 hours, excluding travel time.",
+        "article": "Article 22(2), Constitution of India",
+        "consequence_if_wrong": "Detention beyond 24 hours without magistrate production is unconstitutional."
+      }
+    ]
+  },
+  "remand_rules": {
+    "title": "Magistrate Remand Simulation",
+    "description": "Understanding remand procedures and rights during judicial custody",
+    "constitutional_basis": "Section 167 CrPC & Article 21",
+    "questions": [
+      {
+        "id": "remand_1",
+        "scenario": "Police custody remand (PCR) can be granted for a maximum of:",
+        "options": [
+          { "id": "a", "text": "30 days", "correct": false },
+          { "id": "b", "text": "15 days", "correct": true },
+          { "id": "c", "text": "60 days", "correct": false },
+          { "id": "d", "text": "90 days", "correct": false }
+        ],
+        "explanation": "Under Section 167(2) CrPC, police custody remand cannot exceed 15 days in total. After that, the accused must be sent to judicial custody.",
+        "article": "Section 167(2), CrPC",
+        "consequence_if_wrong": "Exceeding 15 days police custody is illegal detention."
+      },
+      {
+        "id": "remand_2",
+        "scenario": "If the investigation is not completed within 90 days for offences punishable up to 10 years, the accused is entitled to:",
+        "options": [
+          { "id": "a", "text": "Continued detention", "correct": false },
+          { "id": "b", "text": "Default bail (statutory bail)", "correct": true },
+          { "id": "c", "text": "Immediate acquittal", "correct": false },
+          { "id": "d", "text": "Transfer to another state", "correct": false }
+        ],
+        "explanation": "Under Section 167(2) CrPC, if the investigation is not completed within 60 days (for offences with imprisonment up to 10 years) or 90 days (for graver offences), the accused gets the right to default bail.",
+        "article": "Section 167(2), CrPC",
+        "consequence_if_wrong": "Failure to grant default bail violates the fundamental right to liberty under Article 21."
+      },
+      {
+        "id": "remand_3",
+        "scenario": "During remand hearing, the magistrate MUST:",
+        "options": [
+          { "id": "a", "text": "Simply sign the remand order", "correct": false },
+          { "id": "b", "text": "Examine whether the arrest was lawful and if custody is needed", "correct": true },
+          { "id": "c", "text": "Only listen to the police", "correct": false },
+          { "id": "d", "text": "Order punishment immediately", "correct": false }
+        ],
+        "explanation": "The magistrate has a duty to apply judicial mind and examine whether the arrest was lawful, whether further custody is necessary, and whether the accused has been treated properly.",
+        "article": "Section 167, CrPC; CBI v. Anupam Kulkarni",
+        "consequence_if_wrong": "Mechanical remand orders violate Article 21 and have been criticized by the Supreme Court."
+      },
+      {
+        "id": "remand_4",
+        "scenario": "An accused in judicial custody has the right to:",
+        "options": [
+          { "id": "a", "text": "Be kept in solitary confinement", "correct": false },
+          { "id": "b", "text": "Meet their lawyer and family members", "correct": true },
+          { "id": "c", "text": "Leave jail whenever they want", "correct": false },
+          { "id": "d", "text": "Carry weapons for self-defense", "correct": false }
+        ],
+        "explanation": "An accused in judicial custody has the right to meet their legal counsel, have family visits, and receive medical attention. These rights are protected under Article 21.",
+        "article": "Article 21, Constitution of India",
+        "consequence_if_wrong": "Denying access to counsel or family is a violation of fundamental rights."
+      },
+      {
+        "id": "remand_5",
+        "scenario": "The magistrate can refuse to grant police custody remand if:",
+        "options": [
+          { "id": "a", "text": "The police bring the accused on time", "correct": false },
+          { "id": "b", "text": "There are visible signs of torture or ill-treatment on the accused", "correct": true },
+          { "id": "c", "text": "The crime is very serious", "correct": false },
+          { "id": "d", "text": "The accused is a first-time offender", "correct": false }
+        ],
+        "explanation": "If the magistrate finds signs of torture, ill-treatment, or that the arrest is not lawful, they can and should refuse police custody remand. This is a constitutional safeguard.",
+        "article": "D.K. Basu v. State of West Bengal Guidelines",
+        "consequence_if_wrong": "Ignoring signs of custodial torture makes the magistrate complicit in rights violations."
+      }
+    ]
+  },
+  "citizen_rights": {
+    "basic_rights": [
+      {
+        "id": "right_1",
+        "title": "Right to Know Grounds of Arrest",
+        "description": "Every arrested person must be informed of the reason for their arrest immediately.",
+        "article": "Article 22(1)"
+      },
+      {
+        "id": "right_2",
+        "title": "Right to Legal Counsel",
+        "description": "Every arrested person has the right to consult a lawyer of their choice.",
+        "article": "Article 22(1)"
+      },
+      {
+        "id": "right_3",
+        "title": "Right Against Self-Incrimination",
+        "description": "No person can be compelled to be a witness against themselves.",
+        "article": "Article 20(3)"
+      },
+      {
+        "id": "right_4",
+        "title": "Right to be Produced Before Magistrate",
+        "description": "Must be presented before the nearest magistrate within 24 hours of arrest.",
+        "article": "Article 22(2)"
+      },
+      {
+        "id": "right_5",
+        "title": "Right Against Torture",
+        "description": "No person in custody can be subjected to torture or inhuman treatment.",
+        "article": "Article 21"
+      },
+      {
+        "id": "right_6",
+        "title": "Right to Free Legal Aid",
+        "description": "If you cannot afford a lawyer, the State must provide one free of charge.",
+        "article": "Article 39A"
+      }
+    ],
+    "dos_and_donts": {
+      "dos": [
+        "Stay calm and cooperative during any police interaction",
+        "Ask for the officer's name and badge number",
+        "Request a copy of the FIR after filing",
+        "Inform a family member or friend about your arrest",
+        "Ask for a lawyer immediately upon arrest",
+        "Note the time and place of arrest",
+        "Request medical examination if needed",
+        "Cooperate with the identification process"
+      ],
+      "donts": [
+        "Do not resist arrest physically",
+        "Do not sign any blank papers",
+        "Do not make any confession without a lawyer present",
+        "Do not allow search without a warrant (for non-cognizable)",
+        "Do not provide false information in an FIR",
+        "Do not bribe any officer",
+        "Do not destroy any evidence",
+        "Do not threaten or abuse police officers"
+      ]
+    },
+    "quiz": [
+      {
+        "id": "cq_1",
+        "question": "If police refuse to register your FIR, you should:",
+        "options": [
+          { "id": "a", "text": "Give up", "correct": false },
+          { "id": "b", "text": "Complain to the Superintendent of Police", "correct": true },
+          { "id": "c", "text": "Take the law into your own hands", "correct": false },
+          { "id": "d", "text": "Post about it on social media only", "correct": false }
+        ],
+        "explanation": "You can send the complaint to the SP by post under Section 154(3) CrPC."
+      },
+      {
+        "id": "cq_2",
+        "question": "Police can enter your house without a warrant:",
+        "options": [
+          { "id": "a", "text": "Anytime they want", "correct": false },
+          { "id": "b", "text": "Only to prevent a cognizable offence or arrest a proclaimed offender", "correct": true },
+          { "id": "c", "text": "Never", "correct": false },
+          { "id": "d", "text": "Only during daytime", "correct": false }
+        ],
+        "explanation": "Police can enter without warrant only under specific circumstances like preventing a cognizable offence (Section 47, CrPC)."
+      },
+      {
+        "id": "cq_3",
+        "question": "Your right to remain silent means:",
+        "options": [
+          { "id": "a", "text": "You can refuse all communication with police", "correct": false },
+          { "id": "b", "text": "You cannot be forced to confess or testify against yourself", "correct": true },
+          { "id": "c", "text": "You should never talk to anyone", "correct": false },
+          { "id": "d", "text": "You must stay silent throughout the trial", "correct": false }
+        ],
+        "explanation": "Article 20(3) protects you from self-incrimination. You must provide identity details but cannot be forced to confess."
+      },
+      {
+        "id": "cq_4",
+        "question": "If arrested, you must be produced before a magistrate within:",
+        "options": [
+          { "id": "a", "text": "12 hours", "correct": false },
+          { "id": "b", "text": "24 hours", "correct": true },
+          { "id": "c", "text": "48 hours", "correct": false },
+          { "id": "d", "text": "7 days", "correct": false }
+        ],
+        "explanation": "Article 22(2) guarantees production before magistrate within 24 hours (excluding travel time)."
+      },
+      {
+        "id": "cq_5",
+        "question": "Free legal aid is:",
+        "options": [
+          { "id": "a", "text": "Only for rich people", "correct": false },
+          { "id": "b", "text": "A fundamental right under the Constitution", "correct": true },
+          { "id": "c", "text": "Not available in India", "correct": false },
+          { "id": "d", "text": "Only available in Supreme Court", "correct": false }
+        ],
+        "explanation": "Article 39A directs the State to provide free legal aid to ensure justice is not denied due to economic disability."
+      }
+    ]
+  }
+}
