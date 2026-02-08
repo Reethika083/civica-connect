@@ -1,0 +1,174 @@
+ar experience touch given animation filled and colourful application named civica connect
+
+
+The system must have:
+
+1. Student Mode
+
+A detailed, academic-focused simulation with:
+
+FIR Registration simulation
+
+Arrest Procedure simulation
+
+Magistrate Remand Procedure simulation
+
+Immediate feedback on legal errors
+
+Awards experience points, score, correctness %
+
+2. Citizen Mode
+
+Simplified step-by-step legal awareness journey with:
+
+Basic rights
+
+What police can/cannot do
+
+What citizens must know
+
+Simple interactive questions
+
+📌 AR Simulation (Non-functional placeholder for demo)
+
+Add a screen that displays:
+“AR Mode Coming Soon – This demo shows simulated steps instead.”
+
+No AR implementation required; just placeholder UI.
+
+📌 UI Requirements
+
+Build using:
+
+Dark Mode
+
+Black + Purple theme
+
+Neon violet highlights
+
+Modern card UI
+
+Montserrat or Poppins font
+
+Clean, polished, professional UI.
+
+📌 Screens Required
+Home Screen
+
+Title
+
+Buttons for Student Mode & Citizen Mode
+
+About section
+
+Student Mode Pages
+
+FIR Simulation
+
+Arrest Simulation
+
+Remand Simulation
+
+Summary/Result Screen
+
+Each simulation should:
+
+Show a scenario
+
+Offer multiple choice options
+
+Validate answer using rules from JSON
+
+Provide instant feedback
+
+Update score
+
+Citizen Mode Pages
+
+Rights awareness
+
+Do’s & Don’ts
+
+Small MCQs
+
+Score or badge at the end
+
+📌 Include These Files
+1. /lib/data/legal_rules.json
+
+A JSON file containing:
+
+FIR rules
+
+Arrest rules
+
+Remand rules
+
+Constitutional articles
+
+Incorrect action → consequences
+
+Use dummy rules; I will modify later.
+
+2. /lib/services/decision_engine.dart
+
+Validates student choices using JSON rules.
+Returns:
+
+Correct / Incorrect
+
+Explanation
+
+3. /lib/services/score_manager.dart
+
+Tracks:
+
+XP
+
+Total correct/incorrect
+
+Simulation completion %
+
+Uses shared_preferences.
+
+4. /lib/components/
+
+CustomButton
+
+ChoiceCard
+
+ScoreCard
+
+5. /lib/models/
+
+UserScore
+
+QuestionModel
+
+📌 App Features
+
+Smooth navigation
+
+Error-free Flutter code
+
+Beautiful UI
+
+JSON-based rule validation
+
+Score tracking
+
+Works offline
+
+Runs entirely inside Flutter (no backend)
+
+📌 Final Output
+
+At the end, provide:
+
+✔ Full project folder (all files)
+✔ ZIP download link
+✔ Instructions to run
+⚠️ Important
+
+Write complete code for every file, not placeholders.
+Make the app runnable immediately.
